@@ -1,39 +1,31 @@
-# account-form
+# Vue 3 Accounts Manager
 
-This template should help get you started developing with Vue 3 in Vite.
+Простое одностраничное приложение для управления учетными записями с использованием **Vue 3**, **TypeScript**, **Pinia** и **Element Plus**. Проект включает базовый CRUD, валидацию формы, поддержку типов записей и современный UI.
 
-## Recommended IDE Setup
+## 🚀 Демо
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+👉 [Открыть на GitHub Pages](https://abzall.github.io/Account_form/)
 
-## Type Support for `.vue` Imports in TS
+## ⚙️ Функциональность
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- ✅ **Добавление и удаление учетных записей**  
+- ✅ **Поддержка типов записей:**  
+  - `LDAP`  
+  - `Локальная` (требует пароль)
+- ✅ **Управление метками (labels)** — указываются через `;`
+- ✅ **Валидация формы:**
+  - Логин обязателен  
+  - Пароль обязателен только для локальных записей
+- ✅ **TypeScript типизация**
+- ✅ **Composition API**
+- ✅ **Pinia для управления состоянием**
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🔧 Стек технологий
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Element Plus](https://element-plus.org/)
